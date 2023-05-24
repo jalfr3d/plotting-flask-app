@@ -15,7 +15,7 @@ def about():
 
 @app.route('/plot/')
 def plot():
-    from pandas_datareader import data
+    import yfinance  as yf
     import datetime
     from bokeh.plotting import figure, show, output_file
     from bokeh.embed import components 
@@ -24,7 +24,7 @@ def plot():
     start = datetime.datetime(2021, 10, 1)
     end = datetime.datetime(2022, 12, 1)
 
-    df = data.DataReader(name="GOOG", data_source="yahoo", start=start, end=end)
+    df = yf.download("GOOG", start=start, end=end)
 
     def inc_dec(c, o):
         if c > o:
