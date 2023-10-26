@@ -50,14 +50,14 @@ The main page for generating interactive candlestick charts.
 Enter the stock or cryptocurrency symbol to view its historical data in the form of candlestick charts.
 Accessible at http://127.0.0.1:5000/plot/.
 
-##Customize and Enhance
-You can customize the design and layout of the HTML templates to match your preferences.
+## Customize and Enhance
+- You can customize the design and layout of the HTML templates to match your preferences.
 
-Extend the functionality by adding more technical indicators and interactive features to candlestick charts.
+- Extend the functionality by adding more technical indicators and interactive features to candlestick charts.
 
-You may explore other data sources and APIs to gather financial data beyond Yahoo Finance.
+- You may explore other data sources and APIs to gather financial data beyond Yahoo Finance.
 
-Secure the application if you plan to deploy it to a production environment.
+- Secure the application if you plan to deploy it to a production environment.
 
 Feel free to use, modify, and distribute this project for your purposes. Contributions and feedback are welcome!
 
