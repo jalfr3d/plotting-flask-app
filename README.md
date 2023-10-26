@@ -27,9 +27,9 @@ A Flask web application that allows you to plot stock or cryptocurrency data usi
    ```bash
    pip install Flask yfinance bokeh
 3. Run the Flask web application:
-```
-python main.py
-```
+   ```
+   python main.py
+   ```
 4. Access the web app through a web browser by opening the URL http://127.0.0.1:5000/.
 
 5. Use the navigation links to go to the 'Plot' page.
