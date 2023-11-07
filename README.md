@@ -62,3 +62,6 @@ Accessible at http://127.0.0.1:5000/plot/.
 Feel free to use, modify, and distribute this project for your purposes. Contributions and feedback are welcome!
 
 Happy stock plotting!
+
+## License
+This project is licensed under the MIT License. You are free to use and modify the code for your own purposes.
